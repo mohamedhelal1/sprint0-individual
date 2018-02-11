@@ -21,6 +21,8 @@ git merge ReadMe
 git add /e/mozakra/semester6/SE/repos/sprint0-individual/AllMyCommands.txt
 git commit -m " merged branch ReadMe and master together and added AllMyCommands.txt"
 git push -u https://github.com/mohamedhelal1/sprint0-individual.git master
+git push -u https://github.com/mohamedhelal1/sprint0-individual.git ReadMe
+
 
 
 
