@@ -1,0 +1,36 @@
+cd repos
+mkdir sprint0-individual
+cd sprint0-individual
+git init
+git add /e/mozakra/semester6/SE/repos/sprint0-individual/section1.1.txt
+git add /e/mozakra/semester6/SE/repos/sprint0-individual/section3.1.txt
+git add /e/mozakra/semester6/SE/repos/sprint0-individual/section5.1.txt
+git commit -m "added section1.1.txt , section3.1.txt , section5.1.txt "
+git rm /e/mozakra/semester6/SE/repos/sprint0-individual/section3.1.txt
+git commit -m "removed section3.1 "
+git log --oneline
+git reset --hard 63d26db
+git push -u https://github.com/mohamedhelal1/sprint0-individual.git master
+touch README.md
+start README.md
+git checkout -b ReadMe
+git add /e/mozakra/semester6/SE/repos/sprint0-individual/README.md
+git commit -m " created new branch called ReadMe and added README.md"
+git checkout master
+git merge ReadMe
+git add /e/mozakra/semester6/SE/repos/sprint0-individual/AllMyCommands.txt
+git commit -m " merged branch ReadMe and master together and added AllMyCommands.txt"
+git push -u https://github.com/mohamedhelal1/sprint0-individual.git master
+
+
+
+
+
+
+
+
+
+
+
+
+
